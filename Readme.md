@@ -1,6 +1,4 @@
-Sure, here's the entire `README.md` content without enclosing it in quotations:
 
-```markdown
 # EventPlanner360
 
 ![EventPlanner360](https://images.unsplash.com/photo-1566843971072-feb2671ed2d9?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
@@ -32,16 +30,16 @@ Check out the [live demo](#) of EventPlanner360.
 ### Backend Setup
 
 1. Clone the repository:
-   ```bash
+
    git clone https://github.com/your-username/eventplanner360.git
    cd eventplanner360
-   ```
+
 
 2. Install dependencies:
-   ```bash
+
    cd eventplanner360-backend
    npm install
-   ```
+
 
 3. Configure environment variables:
    Create a `.env` file in the `eventplanner360-backend` directory and add the following:
