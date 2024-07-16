@@ -77,7 +77,7 @@ Check out the [live demo](#) of EventPlanner360.
 
 ## File Structure
 
-\`\`\`
+
 eventplanner360/
 ├── eventplanner360-backend/
 │   ├── src/
@@ -105,7 +105,7 @@ eventplanner360/
 │   │   └── styles.css
 │   ├── package.json
 │   └── README.md
-\`\`\`
+
 
 ## Screenshots
 
