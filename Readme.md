@@ -1,6 +1,9 @@
+Sure, here's the entire `README.md` content without enclosing it in quotations:
+
+```markdown
 # EventPlanner360
 
-![EventPlanner360]
+![EventPlanner360](https://images.unsplash.com/photo-1566843971072-feb2671ed2d9?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
 
 EventPlanner360 is an all-in-one event management platform enabling users to plan, organize, and oversee diverse events like conferences, weddings, and parties. With features for event creation, guest list management, budget tracking, vendor coordination, and scheduling, users can streamline planning efforts. Personalized event pages, invitation management, and RSVP tracking enhance user experience. Integration with payment gateways facilitates ticket sales and online transactions, fostering seamless event execution and collaboration among organizers, vendors, and attendees.
 
@@ -29,46 +32,46 @@ Check out the [live demo](#) of EventPlanner360.
 ### Backend Setup
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-username/eventplanner360.git
    cd eventplanner360
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    cd eventplanner360-backend
    npm install
-   \`\`\`
+   ```
 
 3. Configure environment variables:
    Create a `.env` file in the `eventplanner360-backend` directory and add the following:
-   \`\`\`env
+   ```env
    PORT=5000
    MONGODB_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
-   \`\`\`
+   ```
 
 4. Start the backend server:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
-   \`\`\`bash
+   ```bash
    cd ../eventplanner360-frontend
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Start the frontend development server:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -77,7 +80,7 @@ Check out the [live demo](#) of EventPlanner360.
 
 ## File Structure
 
-///
+```plaintext
 eventplanner360/
 ├── eventplanner360-backend/
 │   ├── src/
@@ -105,18 +108,18 @@ eventplanner360/
 │   │   └── styles.css
 │   ├── package.json
 │   └── README.md
-///
+```
 
 ## Screenshots
 
 ### Home Page
-![Home Page]
+![Home Page](https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
 
 ### Event Schedule Page
-![Event Schedule]
+![Event Schedule](https://images.unsplash.com/photo-1556742400-b5e08ea3bc94?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
 
 ### Budget Tracking Page
-![Budget Tracking]
+![Budget Tracking](https://images.unsplash.com/photo-1521540216272-a50305cd4421?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
 
 ## Contributing
 
@@ -129,5 +132,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any inquiries, please contact us at [info@eventplanner360.com](mailto:info@eventplanner360.com).
-
-
+```
