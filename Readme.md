@@ -111,14 +111,16 @@ eventplanner360/
 ## Screenshots
 
 ### Home Page
-![Home Page](https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
+![Home Page]<img src="./home.png">
 
 ### Event Schedule Page
-![Event Schedule](https://images.unsplash.com/photo-1556742400-b5e08ea3bc94?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
+![Event Schedule]<img src="./event.png">
 
 ### Budget Tracking Page
-![Budget Tracking](https://images.unsplash.com/photo-1521540216272-a50305cd4421?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
+![Budget Tracking]<img src="./buget.png">
 
+### Event Schedule Page
+![Event Schedule] <img src="./schedule.png">
 ## Contributing
 
 We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
