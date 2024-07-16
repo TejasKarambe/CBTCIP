@@ -1,15 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles.css'; // Import your CSS file for HomePage
-import bgvideo from './videofile.mp4'
+
+const images = [
+  '/images/bgimg.jpg',
+  '/images/bgimg2.jpg',
+  '/images/bgimg3.jpg',
+  '/images/bgimg4.jpg',
+  '/images/bgimg5.jpg'
+];
 
 const HomePage = () => {
-  return (
-    <div className="homepage">
-{/* Ensure Navigation is only included once here */}
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-<video autoPlay muted loop id="myVideo">
-  <source src={bgvideo} type="video/mp4" />
-</video>
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000); // Change image every 5 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div
+      className="homepage"
+      style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
+    >
 
       <section className="hero">
         <div className="hero-content">

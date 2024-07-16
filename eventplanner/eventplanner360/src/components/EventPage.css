@@ -1,6 +1,6 @@
 .event-page {
     padding: 40px; /* Adjust padding as needed */
-    color: white
+
   }
   
   .event-cards {
@@ -25,7 +25,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: red;
+    
   }
   
   .overlay {
