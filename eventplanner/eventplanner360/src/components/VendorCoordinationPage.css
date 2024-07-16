@@ -1,0 +1,35 @@
+.vendor-coordination-page {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .vendor-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .vendor-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vendor-item h3 {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .vendor-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  

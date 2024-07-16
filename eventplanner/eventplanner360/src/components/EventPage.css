@@ -1,0 +1,53 @@
+.event-page {
+    padding: 40px; /* Adjust padding as needed */
+    color: white
+  }
+  
+  .event-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Example EventCard styles */
+  .event-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .event-card-header {
+    height: 200px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  }
+  
+  .event-card-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-card-body {
+    padding: 20px;
+  }
+  
+  .event-card-body p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  

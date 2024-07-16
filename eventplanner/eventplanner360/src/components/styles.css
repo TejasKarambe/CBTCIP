@@ -1,0 +1,139 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100vh;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(53, 53, 53);
+  }
+  
+  /* Navigation styles */
+  /* Add your navigation styles here */
+  
+  /* Hero section */
+  .hero {
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?event') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* About section */
+  .about {
+    background: url('https://source.unsplash.com/1600x900/?about') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .about .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Services section */
+  .services {
+    background: url('https://source.unsplash.com/1600x900/?services') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .services .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .services ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact section */
+  .contact {
+    background: url('https://source.unsplash.com/1600x900/?contact') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.2rem;
+    }
+  
+    .about, .services, .contact {
+      padding: 80px 0;
+    }
+  }

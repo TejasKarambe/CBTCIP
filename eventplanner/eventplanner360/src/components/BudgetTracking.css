@@ -1,0 +1,61 @@
+.budget-tracking-page {
+    padding: 20px;
+  }
+  
+  .budget-summary {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .summary-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .summary-item {
+    text-align: center;
+  }
+  
+  .budget-details {
+    padding: 20px;
+  }
+  
+  .budget-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .budget-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .status {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .status.green {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .status.yellow {
+    background-color: #ffeb3b;
+    color: #000;
+  }
+  
+  .status.red {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
