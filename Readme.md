@@ -1,4 +1,4 @@
-"# EventPlanner360
+# EventPlanner360
 
 ![EventPlanner360]
 
@@ -130,4 +130,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries, please contact us at [info@eventplanner360.com](mailto:info@eventplanner360.com).
 
-"
+
