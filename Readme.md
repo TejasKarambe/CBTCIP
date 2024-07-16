@@ -1,6 +1,6 @@
 "# EventPlanner360
 
-![EventPlanner360](https://images.unsplash.com/photo-1566843971072-feb2671ed2d9?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
+![EventPlanner360]
 
 EventPlanner360 is an all-in-one event management platform enabling users to plan, organize, and oversee diverse events like conferences, weddings, and parties. With features for event creation, guest list management, budget tracking, vendor coordination, and scheduling, users can streamline planning efforts. Personalized event pages, invitation management, and RSVP tracking enhance user experience. Integration with payment gateways facilitates ticket sales and online transactions, fostering seamless event execution and collaboration among organizers, vendors, and attendees.
 
@@ -110,13 +110,13 @@ eventplanner360/
 ## Screenshots
 
 ### Home Page
-![Home Page](https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
+![Home Page]
 
 ### Event Schedule Page
-![Event Schedule](https://images.unsplash.com/photo-1556742400-b5e08ea3bc94?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
+![Event Schedule]
 
 ### Budget Tracking Page
-![Budget Tracking](https://images.unsplash.com/photo-1521540216272-a50305cd4421?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)
+![Budget Tracking]
 
 ## Contributing
 
